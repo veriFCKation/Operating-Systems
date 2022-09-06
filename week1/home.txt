@@ -1,0 +1,11 @@
+total 40
+drwxr-xr-x 2 ksenia ksenia 4096 сен  5 23:22 Videos
+drwxr-xr-x 2 ksenia ksenia 4096 сен  5 23:22 Templates
+drwxr-xr-x 2 ksenia ksenia 4096 сен  5 23:22 Public
+drwxr-xr-x 2 ksenia ksenia 4096 сен  5 23:22 Pictures
+drwxr-xr-x 2 ksenia ksenia 4096 сен  5 23:22 Music
+drwxr-xr-x 2 ksenia ksenia 4096 сен  5 23:22 Downloads
+drwxr-xr-x 2 ksenia ksenia 4096 сен  5 23:22 Documents
+drwxr-xr-x 2 ksenia ksenia 4096 сен  5 23:22 Desktop
+drwx------ 4 ksenia ksenia 4096 сен  5 23:58 snap
+drwxrwxr-x 3 ksenia ksenia 4096 сен  6 17:56 week1

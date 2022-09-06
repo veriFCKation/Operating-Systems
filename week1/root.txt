@@ -1,0 +1,26 @@
+total 2191440
+drwxr-xr-x  14 root root       4096 авг  9 14:48 usr
+drwxr-xr-x   2 root root       4096 авг  9 14:48 srv
+drwxr-xr-x   2 root root       4096 авг  9 14:48 opt
+drwxr-xr-x   2 root root       4096 авг  9 14:48 mnt
+drwxr-xr-x   2 root root       4096 авг  9 14:48 media
+drwxr-xr-x  14 root root       4096 авг  9 14:54 var
+drwxr-xr-x  11 root root       4096 авг  9 14:55 snap
+drwx------   2 root root      16384 сен  5 22:45 lost+found
+-rw-------   1 root root 2243952640 сен  5 22:45 swapfile
+lrwxrwxrwx   1 root root          7 сен  5 22:46 bin -> usr/bin
+lrwxrwxrwx   1 root root          8 сен  5 22:46 sbin -> usr/sbin
+lrwxrwxrwx   1 root root         10 сен  5 22:46 libx32 -> usr/libx32
+lrwxrwxrwx   1 root root          9 сен  5 22:46 lib64 -> usr/lib64
+lrwxrwxrwx   1 root root          9 сен  5 22:46 lib32 -> usr/lib32
+lrwxrwxrwx   1 root root          7 сен  5 22:46 lib -> usr/lib
+drwxrwxr-x   2 root root       4096 сен  5 22:55 cdrom
+drwxr-xr-x   3 root root       4096 сен  5 23:02 home
+drwxr-xr-x   4 root root       4096 сен  5 23:17 boot
+drwx------   4 root root       4096 сен  5 23:22 root
+drwxr-xr-x 129 root root      12288 сен  5 23:29 etc
+dr-xr-xr-x  13 root root          0 сен  6 16:25 sys
+dr-xr-xr-x 252 root root          0 сен  6 16:25 proc
+drwxr-xr-x  32 root root        840 сен  6 16:26 run
+drwxr-xr-x  19 root root       4120 сен  6 16:35 dev
+drwxrwxrwt  21 root root       4096 сен  6 17:55 tmp
