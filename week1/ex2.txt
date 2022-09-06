@@ -1,0 +1,28 @@
+    1  ls
+    2  sudo apt-get update
+    3  sudo apt-get install gcc
+    4  ls /usr/bin | grep "gcc"
+    5  man gcc
+    6  mkdir ~/week1
+    7  cd week1
+    8  find usr/bin "gcc" | ls | sort -r | tail -n 5
+    9  find /usr/bin "*gcc*" | ls | sort -r | tail -n 5
+   10  find /usr/bin name "*gcc*" | ls | sort -r | tail -n 5
+   11  ls /usr/bin | grep "gcc" | sort -r | tail -n 5
+   12  ls /usr/bin | grep "gcc" | sort -r | tail -n 5> ex1.txt
+   13  tail --help
+   14  ls /usr/bin | grep "gcc" | sort -r | tail -n 5 > ex1.txt
+   15  touch ex1.sh
+   16  gedit ex1.sh
+   17  cd week1
+   18  stdin "aaa"
+   19  ls > ex2.txt
+   20  head -n 4 < ex2.txt
+   21  ls | sort
+   22  sort ex2.txt  > ex2.txt 
+   23  head -n 4 < ex2.txt
+   24  sort ex2.txt > sorted.txt
+   25  head -n 4 < sorted.txt
+   26  man man
+   27  hostname
+   28  history > ex2.txt
