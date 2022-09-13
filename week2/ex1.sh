@@ -1,2 +1,2 @@
-gcc ex1.c -o ex2
-./ex2
+gcc ex1.c -o ex1
+./ex1
