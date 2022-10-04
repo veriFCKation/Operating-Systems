@@ -5,18 +5,22 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
+#include <string.h>
 
-int main(void){
+int main(){
 int fd;
 char *path = "/tmp/ex1";
-mkfifo(path, 0777);
-char str[1024] = "";
+char last[1024] = "###";
+char str[1024];
 
 while (1){
 	fd = open(path, O_WRONLY);
 	read(fd, str, 1024);
 	close(fd);
-	printf("-> %s", str);
+	if (strcmp(last, str)){
+		printf("-> %s", str);
+		strcpy(last, str);
+	}
 	sleep(1);
 }
 
