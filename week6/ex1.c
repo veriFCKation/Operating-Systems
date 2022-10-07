@@ -20,11 +20,12 @@ int main(){
   int currTime = schedule[0].arrT;
   for (int i = 0; i < n; ++i){
   	//in this case we haven't interruptions, so CT = WT
+  	if (currTime < schedule[i].arrT) currTime = schedule[i].arrT;
   	wt = currTime - schedule[i].arrT;
   	tat = wt + schedule[i].bustT;
   	averTAT = averTAT + tat;
   	averWT = averWT + wt;
-  	printf("Process %d:\n    CT  = %d\n    TAT = %d\n    WT  = %d\n", i, wt, tat, wt);
+  	printf("Process %d (%d, %d):\n    CT  = %d\n    TAT = %d\n    WT  = %d\n", i, schedule[i].arrT, schedule[i].bustT, wt, tat, wt);
   	currTime = currTime + schedule[i].bustT;
   }
   averTAT = averTAT / n;
