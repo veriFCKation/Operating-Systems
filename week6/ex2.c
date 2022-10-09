@@ -24,7 +24,7 @@ int main(){
   	schedule[i].bustT = b;
   }
   
-  int currTime = schedule[0].arrT;
+  int currTime = 0;
   for (int i = 0; i < n; ++i){
   	int k = 0, j = 0;
   	while (j < n && schedule[j].arrT != -1){
