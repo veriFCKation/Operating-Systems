@@ -8,8 +8,6 @@ typedef struct Process{
 
 //we alwaus need to choose the process with minimum bust time
 //in this case we still haven't interruptions, so CT = WT
-//priority queue can be more opltimal, but I don't think it's obligatory in this case 
-//and it harder to implement (it's better to spend this time prepearing for midterm)
 
 int main(){
   int n, a, b;
