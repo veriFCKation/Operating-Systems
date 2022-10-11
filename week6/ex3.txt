@@ -1,0 +1,101 @@
+Same input for all three algorithms:
+7 processes: (0,1), (0,1), (0,1), (7, 1), (3,3), (3, 1), (3, 2)
+For round robin alorithm let's make quantum equals 2 (because maximum bust time in this example is 3, so if we make quantum >= 3, we will not able to see, how interraptions work)
+
+Output of FIFS algorithm:
+Process 0 (0, 1):
+    CT  = 0
+    TAT = 1
+    WT  = 0
+Process 1 (0, 1):
+    CT  = 1
+    TAT = 2
+    WT  = 1
+Process 2 (0, 1):
+    CT  = 2
+    TAT = 3
+    WT  = 2
+Process 3 (7, 1):
+    CT  = 0
+    TAT = 1
+    WT  = 0
+Process 4 (3, 3):
+    CT  = 5
+    TAT = 8
+    WT  = 5
+Process 5 (3, 1):
+    CT  = 8
+    TAT = 9
+    WT  = 8
+Process 6 (3, 2):
+    CT  = 9
+    TAT = 11
+    WT  = 9
+Average TAT = 5.000000
+Average WT  = 3.571429
+
+Output of SJF algorithm:
+Process 0 (0, 1):
+    CT  = 0
+    TAT = 1
+    WT  = 0
+Process 1 (0, 1):
+    CT  = 1
+    TAT = 2
+    WT  = 1
+Process 2 (0, 1):
+    CT  = 2
+    TAT = 3
+    WT  = 2
+Process 3 (3, 1):
+    CT  = 0
+    TAT = 1
+    WT  = 0
+Process 4 (3, 2):
+    CT  = 1
+    TAT = 3
+    WT  = 1
+Process 5 (3, 3):
+    CT  = 3
+    TAT = 6
+    WT  = 3
+Process 6 (7, 1):
+    CT  = 2
+    TAT = 3
+    WT  = 2
+Average TAT = 2.714286
+Average WT  = 1.285714
+
+Output of round robin algorithm (quantum =  2):
+Process 0:
+    CT  = 0
+    TAT = 1
+    WT  = 0
+Process 1:
+    CT  = 1
+    TAT = 2
+    WT  = 1
+Process 2:
+    CT  = 2
+    TAT = 3
+    WT  = 2
+Process 3:
+    CT  = 0
+    TAT = 1
+    WT  = 0
+Process 4:
+    CT  = 1
+    TAT = 3
+    WT  = 1
+Process 5:
+    CT  = 3
+    TAT = 7
+    WT  = 4
+Process 6:
+    CT  = 1
+    TAT = 2
+    WT  = 1
+Average TAT = 2.428571
+Average WT  = 1.285714
+
+At round robin algorithm we can see changes at CT, TAT, and WT at last two processes and decreasing of average TAT. The longest process wait less, than in SJF algorithm, because of quantum.
