@@ -1,0 +1,1 @@
+The physical address points directly to the real cell at the memory. Virtual address is in the virtual memory and points to some real cell only then program (using this address) is executing
