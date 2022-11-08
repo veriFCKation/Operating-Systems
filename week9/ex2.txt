@@ -1,0 +1,1 @@
+Hit/miss ratio will increase if sort all sequence (because for each page all referes will be near to each other and algoritm won't foget this page)
