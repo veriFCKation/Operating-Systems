@@ -1,0 +1,8 @@
+mode of '_ex3.txt' retained as 0000 (---------)
+mode of '_ex3.txt' changed from 0000 (---------) to 0707 (rwx---rwx)
+mode of '_ex3.txt' changed from 0707 (rwx---rwx) to 0777 (rwxrwxrwx)
+
+Answers:
+660 means read-write permissions for owner and group, and no permissions for other
+775 means all permissions for owner and group, and read-execute permissions for other
+777 means all permissions for owner, group and other
