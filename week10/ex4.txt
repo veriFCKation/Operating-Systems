@@ -1,0 +1,4 @@
+File --- Hard Links
+.. --- .. 
+link1 --- .. 
+
