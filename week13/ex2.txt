@@ -1,0 +1,5 @@
+Recovery => can be used when the we can detect dedlocks (and deal with it by taking resource back or killing the deadlock process)
+
+Prevention => can be used when we can miss one of the required conditions (and can somehow reorginize processes becaouse of it)
+
+Avoidance => can be used when we know size and number of the processed from the start (and can apply Bankir's algorithm)
