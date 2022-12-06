@@ -5,9 +5,9 @@
 int main(){
 char buf;
 int num_of_proc = 0, num_of_res = 0, marked = 0;
-int c[num_of_proc][num_of_res], r[num_of_proc][num_of_res];
-int e[num_of_res], a[num_of_res];
-bool p[num_of_proc];
+int c[100][100], r[100][100];
+int e[100], a[100];
+bool p[100];
 
 //read data
 FILE *in;
@@ -27,6 +27,7 @@ while (buf != '\n'){
 for (int j = 0; j < num_of_res; ++j){
 	fscanf(in, "%d", &a[j]);
 }
+
 fscanf(in, "%c", &buf);
 fscanf(in, "%c", &buf);
 fscanf(in, "%c", &buf);
